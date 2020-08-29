@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aman Gora | Official website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <section class="banner" id="sec">
+       <header>
+           <a href="#" class="logo">Aman Gora</a>
+           <div id="toggle" onclick="toggle()"></div>
+       </header>
+       <div class="content">
+           <h2>Hello World,<br> I'm <span>Aman Gora</span></h2>
+           <p>Belongs to sikar Present in Rajasthan. 
+            also a Rajasthan based Public Figure. I completed my 12th exam sucessfully
+            And in Internshala I worked there for 3months as a short course for B.Tech . 
+            I Played volleyball at Dist. level and also have a intreseted in Kabadi. As per 
+            interest i decided to persue in marketing carrer. I also have interest in interior
+            designing because my Father is an property dealer due to which i want to become an interior designer.
+        </p>
+        <a href="https://www.instagram.com/amangora_/">Know More</a>
+       </div>
+       <ul class="sci">
+           <li><a href="https://www.facebook.com/Aman-Gora-103057004862686/"><img src="./images/facebook.png"></a></li>
+           <li><a href="https://www.instagram.com/amangora_/"><img src="./images/instagram.png"></a></li>
+           <li><a href="https://www.twitter.com/@AmanGora5/"><img src="./images/twitter.png"></a></li>
+       </ul>
+   </section>
+
+   <div id="navigation">
+       <ul>
+           <li><a href="#">Home</a></li>
+           <li><a href="#">About</a></li>
+           <li><a href="portfolio.html">Portfolio</a></li>
+           <li><a href="#">Contact</a></li>
+       </ul>
+   </div>
+   <script type="text/javascript" src="./js/jQuery.js">
+    function toggle(){
+        var sec = document.getElementById('sec');
+        var nav = document.getElementById('naviagtion');
+        sec.classList.toggle('active');
+        nav.classList.toggle('active');
+    }
+</script>
+</body>
+</html>
